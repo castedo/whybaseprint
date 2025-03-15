@@ -1,0 +1,42 @@
+name: Deploy baseprint preview to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+# and committing generated baseprint snapshot to autobaseprint branch
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: "Generate baseprint and commit to autobaseprint branch"
+        uses: castedo/baseprinter-action@v11
+        with:
+          just-recipe: baseprint
+          # do not use baseprint-path in sources
+          # baseprint snapshot contents will be automatically stored there
+          # on the autobaseprint branch
+          baseprint-path: baseprint
+      - name: "Upload HTML/PDF preview artifacts for GitHub Pages"
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _preview
+  deploy:
+    needs: build
+    runs-on: ubuntu-24.04
+    steps:
+      - name: "Deploy to GitHub Pages"
+        id: deployment
+        uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
