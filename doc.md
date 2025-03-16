@@ -13,6 +13,12 @@ similar to the choice between
 [PubMed Central (US)](https://pubmed.ncbi.nlm.nih.gov),
 [Europe PubMed Central](https://europepmc.org), and journal websites.
 
+Researchers with accessibility needs, such as those with vision impairments,
+benefit from a variety of websites and software applications.
+By encoding new research documents in a format like JATS XML, rather than PDF,
+certain websites and software applications can present a Baseprint document in ways
+that enhance accessibility.
+
 
 <!-- copybreak off -->
 
@@ -118,3 +124,4 @@ This document was copyedited using
 
 * XML restyling
 * Minor changes in wording
+* Discuss accessibility in reading venue section
