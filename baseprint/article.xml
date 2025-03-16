@@ -70,6 +70,11 @@ while also having the option to discover newer versions.</p>
   similar to the choice between
   <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov">PubMed Central (US)</ext-link>,
   <ext-link ext-link-type="uri" xlink:href="https://europepmc.org">Europe PubMed Central</ext-link>, and journal websites.</p>
+  <p>Researchers with accessibility needs, such as those with vision impairments,
+  benefit from a variety of websites and software applications.
+  By encoding new research documents in a format like JATS XML, rather than PDF,
+  certain websites and software applications can present a Baseprint document in ways
+  that enhance accessibility.</p>
 </sec>
 <sec id="document-succession-identifiers">
   <title>Document Succession Identifiers</title>
@@ -165,6 +170,9 @@ while also having the option to discover newer versions.</p>
       </list-item>
       <list-item>
         <p>Minor changes in wording</p>
+      </list-item>
+      <list-item>
+        <p>Discuss accessibility in reading venue section</p>
       </list-item>
     </list>
   </sec>
