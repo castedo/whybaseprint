@@ -15,8 +15,6 @@ abstract: |
     and the ability for authors to add new document versions.
     This allows the research community to cite specific fixed versions
     while also having the option to discover newer versions.
-
-    **STAGE**: Updated future edition planned. Feedback welcome.
 ...
 
 # Summary
@@ -31,7 +29,7 @@ how it is visually presented.
 The benefits of this separation are discussed in the [Diversity of Reading Venues] section.
 A key component to making this separation possible is discussed in the
 [Document Succession Identifiers] section.
-These identifiers can be used for bibliographic references similar to a
+These identifiers can be used as permanent references similar to a
 [DOI](https://en.wikipedia.org/w/index.php?title=Digital_object_identifier) [@enwiki:doi].
 This extends one of the great features of traditional academic publishing,
 namely, the ability of researchers to reference

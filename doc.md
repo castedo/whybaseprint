@@ -1,4 +1,3 @@
-
 # Diversity of Reading Venues
 
 Multiple independent websites and applications can access a Baseprint document succession
@@ -6,12 +5,16 @@ to present the document in various ways.
 Baseprint successions are not tied to a single website,
 allowing readers the freedom to choose between alternative reading venues.
 
-As of 2023, JATS XML [@enwiki:jats] is used to encode the contents of Baseprint
+As of 2024, JATS XML [@enwiki:jats] is used to encode the contents of Baseprint
 snapshots that make up a Baseprint succession.
 A Baseprint snapshot gives readers the choice
 between multiple web page formats,
-similar to the choice between PubMed Central and journal websites.
+similar to the choice between
+[PubMed Central (US)](https://pubmed.ncbi.nlm.nih.gov),
+[Europe PubMed Central](https://europepmc.org), and journal websites.
 
+
+<!-- copybreak off -->
 
 # Document Succession Identifiers
 
@@ -57,8 +60,6 @@ An author determines the editions in a Baseprint succession by digitally
 signing the Baseprint succession with an SSH signing key.
 
 
-<!-- copybreak on -->
-
 ## Multilevel Edition Numbering
 
 Multilevel numbering is found in the numbering of
@@ -77,8 +78,6 @@ higher-level edition numbers identify subordinate sequences of lower-level editi
 (e.g., the entire sequence of edition numbers 2.1, 2.2, 2.3, ... can be identified by
 edition number 2).
 
-<!-- copybreak on -->
-
 # Relationship to Git
 
 While Git is normally used to store source code revisions,
@@ -91,13 +90,13 @@ new editions to the succession.
 
 # Conclusion
 
-As of late 2023, Baseprint successions have been
-implemented and used by the author for over a year.
+Baseprint successions have been implemented and used by the author for years.
 Authors interested in publishing Baseprint successions can visit
 [try.perm.pub](https://try.perm.pub/) to get started.
 
 For technical details on how DSIs are implemented, see the [Document Succession
-Identifier Specification](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo) [@DSI_spec]
+Identifier Specification](https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo) [@DSI_spec],
+[Document Succession Git Layout](https://perm.pub/) [@DSGL_spec],
 or the software library at
 [gitlab.com/perm.pub/hidos](https://gitlab.com/perm.pub/hidos).
 
@@ -112,5 +111,10 @@ This document was copyedited using
 
 ## From Edition 1.1 to 2.1
 
-* The "digital succession" terminology has been update to "Baseprint document succession"
+* The "digital succession" terminology has been updated to "Baseprint document succession"
   terminology.
+
+## From Edition 2.1 to 2.2
+
+* XML restyling
+* Minor changes in wording

@@ -35,7 +35,6 @@ preservation of multiple document versions,
 and the ability for authors to add new document versions.
 This allows the research community to cite specific fixed versions
 while also having the option to discover newer versions.</p>
-<p><bold>STAGE</bold>: Updated future edition planned. Feedback welcome.</p>
       </abstract>
     </article-meta>
   </front>
@@ -52,7 +51,7 @@ while also having the option to discover newer versions.</p>
   The benefits of this separation are discussed in the <xref alt="Diversity of Reading Venues" rid="diversity-of-reading-venues">Diversity of Reading Venues</xref> section.
   A key component to making this separation possible is discussed in the
   <xref alt="Document Succession Identifiers" rid="document-succession-identifiers">Document Succession Identifiers</xref> section.
-  These identifiers can be used for bibliographic references similar to a
+  These identifiers can be used as permanent references similar to a
   <ext-link ext-link-type="uri" xlink:href="https://en.wikipedia.org/w/index.php?title=Digital_object_identifier">DOI</ext-link><sup><xref alt="2" rid="ref-enwikiU003Adoi" ref-type="bibr">2</xref></sup>.
   This extends one of the great features of traditional academic publishing,
   namely, the ability of researchers to reference
@@ -64,11 +63,13 @@ while also having the option to discover newer versions.</p>
   to present the document in various ways.
   Baseprint successions are not tied to a single website,
   allowing readers the freedom to choose between alternative reading venues.</p>
-  <p>As of 2023, JATS XML<sup><xref alt="3" rid="ref-enwikiU003Ajats" ref-type="bibr">3</xref></sup> is used to encode the contents of Baseprint
+  <p>As of 2024, JATS XML<sup><xref alt="3" rid="ref-enwikiU003Ajats" ref-type="bibr">3</xref></sup> is used to encode the contents of Baseprint
   snapshots that make up a Baseprint succession.
   A Baseprint snapshot gives readers the choice
   between multiple web page formats,
-  similar to the choice between PubMed Central and journal websites.</p>
+  similar to the choice between
+  <ext-link ext-link-type="uri" xlink:href="https://pubmed.ncbi.nlm.nih.gov">PubMed Central (US)</ext-link>,
+  <ext-link ext-link-type="uri" xlink:href="https://europepmc.org">Europe PubMed Central</ext-link>, and journal websites.</p>
 </sec>
 <sec id="document-succession-identifiers">
   <title>Document Succession Identifiers</title>
@@ -131,12 +132,12 @@ while also having the option to discover newer versions.</p>
 </sec>
 <sec id="conclusion">
   <title>Conclusion</title>
-  <p>As of late 2023, Baseprint successions have been
-  implemented and used by the author for over a year.
+  <p>Baseprint successions have been implemented and used by the author for years.
   Authors interested in publishing Baseprint successions can visit
   <ext-link ext-link-type="uri" xlink:href="https://try.perm.pub/">try.perm.pub</ext-link> to get started.</p>
   <p>For technical details on how DSIs are implemented, see the <ext-link ext-link-type="uri" xlink:href="https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo">Document Succession
-  Identifier Specification</ext-link><sup><xref alt="4" rid="ref-DSI_spec" ref-type="bibr">4</xref></sup>
+  Identifier Specification</ext-link><sup><xref alt="4" rid="ref-DSI_spec" ref-type="bibr">4</xref></sup>,
+  <ext-link ext-link-type="uri" xlink:href="https://perm.pub/">Document Succession Git Layout</ext-link><sup><xref alt="7" rid="ref-DSGL_spec" ref-type="bibr">7</xref></sup>,
   or the software library at
   <ext-link ext-link-type="uri" xlink:href="https://gitlab.com/perm.pub/hidos">gitlab.com/perm.pub/hidos</ext-link>.</p>
 </sec>
@@ -151,8 +152,19 @@ while also having the option to discover newer versions.</p>
     <title>From Edition 1.1 to 2.1</title>
     <list list-type="bullet">
       <list-item>
-        <p>The “digital succession” terminology has been update to “Baseprint document succession”
+        <p>The “digital succession” terminology has been updated to “Baseprint document succession”
         terminology.</p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="from-edition-2.1-to-2.2">
+    <title>From Edition 2.1 to 2.2</title>
+    <list list-type="bullet">
+      <list-item>
+        <p>XML restyling</p>
+      </list-item>
+      <list-item>
+        <p>Minor changes in wording</p>
       </list-item>
     </list>
   </sec>
@@ -166,7 +178,7 @@ while also having the option to discover newer versions.</p>
       <person-group person-group-type="author">
         <string-name>Wikipedia contributors</string-name>
       </person-group>
-      <article-title>Journal article tag suite — Wikipedia, the free encyclopedia</article-title>
+      <article-title>Journal Article Tag Suite — Wikipedia, the free encyclopedia</article-title>
       <year iso-8601-date="2023">2023</year>
       <uri>https://en.wikipedia.org/w/index.php?title=Journal_Article_Tag_Suite&amp;oldid=1172109468</uri>
     </element-citation>
@@ -206,9 +218,19 @@ while also having the option to discover newer versions.</p>
       <person-group person-group-type="author">
         <name><surname>Ellerman</surname><given-names>E. Castedo</given-names></name>
       </person-group>
-      <article-title>Document succession identifiers</article-title>
+      <article-title>Document Succession Identifiers</article-title>
       <year iso-8601-date="2024">2024</year>
       <uri>https://perm.pub/1wFGhvmv8XZfPx0O5Hya2e9AyXo/2</uri>
+    </element-citation>
+  </ref>
+  <ref id="ref-DSGL_spec">
+    <element-citation publication-type="webpage">
+      <person-group person-group-type="author">
+        <name><surname>Ellerman</surname><given-names>E. Castedo</given-names></name>
+      </person-group>
+      <article-title>Document Succession Git Layout</article-title>
+      <year iso-8601-date="2024">2024</year>
+      <uri>https://perm.pub/VGajCjaNP1Ugz58Khn1JWOEdMZ8/1</uri>
     </element-citation>
   </ref>
   <ref id="ref-intrinsic_extrinsic_identifiers">
